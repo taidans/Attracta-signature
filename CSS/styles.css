@@ -1,20 +1,15 @@
-body{
-	box-sizing: border-box;
-}
-
 
 #all-container{
-	display: flex;
+    display: flex;
     position: relative;
     max-height: 500px;
-    left: 300px;
-    max-width: 400px;
-    top: 150px;
-}
+    max-width: 400px;}
 
 .Shape_7{
     position: absolute;
     left: 300px;
+    width: 100px;
+    height: 200px;
 }
 
 .name{
