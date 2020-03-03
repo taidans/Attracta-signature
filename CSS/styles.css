@@ -2,8 +2,7 @@
 #all-container{
     display: flex;
     position: relative;
-    max-height: 500px;
-    max-width: 400px;}
+}
 
 .Shape_7{
     position: absolute;
