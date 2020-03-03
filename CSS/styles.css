@@ -1,13 +1,19 @@
+body{
+	width: 400px;
+	height: 150px;
+}
 #all-container{
-    display: flex;
+	display: flex;
     position: relative;
+    max-height: 150px;
+    max-width: 400px;
 }
 
 .Shape_7{
     position: absolute;
     left: 300px;
     width: 100px;
-    height: 200px;
+    height: 50px;
 }
 
 .name{
@@ -30,7 +36,7 @@ span{
 	position: relative;
 	display: flex;
 	width: 150px;
-	top: 10px;
+	top: auto;
 	left: 20px;
 }
 #contact{
@@ -38,7 +44,7 @@ span{
 	position: relative;
 	width: 110px;
 	justify-content: space-between;
-	top: 70px;
+	top: 60px;
     right: 130px;
 }
 
@@ -67,7 +73,7 @@ span{
 	position: relative;
 	width: 120px;
 	justify-content: space-between;
-	top: 120px;
+	top: 100px;
     right: 240px;
 }
 
@@ -100,7 +106,7 @@ span{
     position: relative;
     width: fit-content;
     justify-content: space-between;
-    top: 70px;
+    top: 60px;
     right: 160px;
 }
 
@@ -135,7 +141,7 @@ span{
     position: relative;
     width: fit-content;
     justify-content: space-between;
-    top: 120px;
+    top: 100px;
     right: 160px;
 }
 
