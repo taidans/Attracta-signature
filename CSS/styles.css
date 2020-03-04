@@ -1,12 +1,15 @@
 body{
-	width: 400px;
-	height: 150px;
+	width: 100vw;
+	max-height: 150px;
+	/*background-color: yellow;*/
 }
 #all-container{
 	display: flex;
     position: relative;
     max-height: 150px;
     max-width: 400px;
+    margin: 20px;
+    /*background-color: */
 }
 
 .Shape_7{
