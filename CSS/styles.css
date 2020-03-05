@@ -58,7 +58,7 @@ span.text {
 .row {
   margin-bottom: 3em;
   font-size: .6em;
-  width: 65%;
+  width: 100%;
 }
 .row .block:first-child {
   width: 50%
