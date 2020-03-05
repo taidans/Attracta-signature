@@ -1,169 +1,71 @@
-body{
-	width: 100vw;
-	max-height: 150px;
-	/*background-color: yellow;*/
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
-#all-container{
-	display: flex;
-    position: relative;
-    max-height: 150px;
-    max-width: 400px;
-    margin: 20px;
-    /*background-color: */
+body {
+ margin-top: 5em;
 }
-
-.Shape_7{
-    position: absolute;
-    left: 300px;
-    width: 100px;
-    height: 50px;
+table {
+  width: 100%
 }
-
-.name{
-	color: #313131;
-	font-family: lato;
-	font-size: 15px;
-	font-weight: bold;
-	position: absolute; 
+#email-container {
+  position: relative;
+  width: 60%;
+  min-height: 200px;
+  background: #fff;
+  padding: 20px;
+  font-family: lato;
+  /* background: url('https://taidans.github.io/Email-signature/Assets/gradient.png')
+    no-repeat 100%; */
 }
-
-span{
-	color: #313131;
-	font-family: lato;
-	font-size: 10px;
-	font-weight: lighter;
-	position: absolute;
+#email-container > img {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
 }
-
-#text{
-	position: relative;
-	display: flex;
-	width: 150px;
-	top: auto;
-	left: 20px;
+.icon-wrapper {
+  float: left;
+  display: inline;
+  margin-right: 10px;
+  height: 20px;
+  width: 10px;
+  color: #707070;
 }
-#contact{
-	display: flex;
-	position: relative;
-	width: 110px;
-	justify-content: space-between;
-	top: 60px;
-    right: 130px;
+.icon {
+  height: 20px;
+  margin-right: 5px;
+  
 }
-
-
-.number{
-	display: flex;
-	position: absolute;
-	color: #313131;
-	font-family: lato;
-	font-size: 10px;
-	font-weight: lighter;
-	right: 0;
-
+.salutation {
+  position: relative;
+  margin-bottom: 1.5em;
 }
-
-.icon{
-	position: absolute;
-	display: flex;
-	width: 16px;
-	height: 12px;
-	top: 10px;
+span.text {
+  color: #707070;
+  margin-right: 40px;
 }
-
-#location{
-	display: flex;
-	position: relative;
-	width: 120px;
-	justify-content: space-between;
-	top: 100px;
-    right: 240px;
+.profile {
+  font-size: 15px;
 }
-
-
-.address{
-	display: flex;
-	position: absolute;
-	color: #313131;
-	font-family: lato;
-	font-size: 10px;
-	font-weight: lighter;
-	right: 2px;
-
+.title {
+  font-size: 10px;
 }
-
-.locate{
-	position: absolute;
-	display: flex;
-	color: #313131;
-	width: 16px;
-	height: 12px;
-	top: 10px;
+.row {
+  margin-bottom: 3em;
+  font-size: .6em;
+  width: 65%;
+}
+.row .block:first-child {
+  width: 50%
+}
+.phone-details, .location-details {
+  float: left;
 }
 
 
 
-
-#mail{
-	display: flex;
-    position: relative;
-    width: fit-content;
-    justify-content: space-between;
-    top: 60px;
-    right: 160px;
-}
-
-
-.mail-address{
-	display: flex;
-	position: absolute;
-	color: #313131;
-	font-family: lato;
-	font-size: 10px;
-	font-weight: lighter;
-}
-
-.mail-icon{
-	position: absolute;
-	display: flex;
-	color: #313131;
-	width: 16px;
-	height: 12px;
-	top: 10px;
-	right: 5px;
-}
-
-
-
-
-
-
-
-#web{
-	display: flex;
-    position: relative;
-    width: fit-content;
-    justify-content: space-between;
-    top: 100px;
-    right: 160px;
-}
-
-
-.web-address{
-	display: flex;
-	position: absolute;
-	color: #313131;
-	font-family: lato;
-	font-size: 10px;
-	font-weight: lighter;
-}
-
-.web-icon{
-	position: absolute;
-	display: flex;
-	color: #313131;
-	width: 16px;
-	height: 12px;
-	top: 10px;
-	right: 5px;
-}
